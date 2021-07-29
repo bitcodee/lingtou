@@ -1,0 +1,5 @@
+This folder is used to initialize the image data with new names to indicate the view of the image. Two parts are used to achieve the goal.
+
+1. run washData.py to get the results saved in data/washed.
+2. run personSplit.py to generate the data separated by tjid. e.g. each subfolder in the data/idFile folder contains the images from the same subject with different years.
+3. The data in the data/idFile can be finally used for sequence prediction.
